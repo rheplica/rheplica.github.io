@@ -1,8 +1,12 @@
+@media screen and (max-width: 767px) {
+	.elementor-row {
+		display: block;
+	}
+}
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
     font: normal 85% Arial, Helvetica, sans-serif;
     background: url(../img/darkbg.jpg) no-repeat #0a0d0f;
