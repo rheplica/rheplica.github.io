@@ -9,9 +9,9 @@ body {
       'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 .heading {
-    position: absolute;
+    position: fixed;
     text-align: center;
-    top: 30%;
+    top: 20%;
     width: 100%;
 }
 .heading h1 {
@@ -60,7 +60,7 @@ a, a:visited {
     color: #000;
     display: inline;
     float: center;
-    margin: 10px 10px 0 0;
+    margin: 2px 2px 0 0;
     cursor: default;
 }
 #particles-js canvas{
