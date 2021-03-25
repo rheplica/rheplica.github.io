@@ -1,6 +1,6 @@
 body {
     font: normal 70% Arial, Helvetica, sans-serif;
-    background: url(../img/darkbg.jpg) no-repeat #0a0d0f;
+    background: url(../img/darkbg.jpg) center no-repeat #0a0d0f;
     color: #fff;
 }
 body {
@@ -23,6 +23,12 @@ body {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+	
+
+	content: "";
+
+	border-radius: 2px;
+
 }
 .heading h2 {
     color: lightgray;
@@ -79,6 +85,6 @@ a, a:visited {
 #particles-js canvas{
 	background: url("../img/background.jpg") center center ;
     position: fixed;
-    height: 100vh;
+    height: 90vh;
 	z-index: -50;
 }
