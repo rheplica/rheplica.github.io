@@ -1,5 +1,5 @@
 body {
-    font: normal 85% Arial, Helvetica, sans-serif;
+    font: normal 75% Arial, Helvetica, sans-serif;
     background: url(../img/darkbg.jpg) no-repeat #0a0d0f;
     color: #fff;
 }
@@ -11,16 +11,16 @@ body {
 .heading {
     position: absolute;
     text-align: center;
-    top: 20%;
+    top: 30%;
     width: 100%;
 }
 .heading h1 {
 	color: whitesmoke;
-	font-size: 6em;
+	font-size: 5em;
 }
 .heading h2 {
     color: lightgray;
-    font-size: 20px;
+    font-size: 15px;
 }
 ul {
     display: block;
