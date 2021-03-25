@@ -1,5 +1,5 @@
 body {
-    font: normal 75% Arial, Helvetica, sans-serif;
+    font: normal 70% Arial, Helvetica, sans-serif;
     background: url(../img/darkbg.jpg) no-repeat #0a0d0f;
     color: #fff;
 }
@@ -9,18 +9,32 @@ body {
       'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 .heading {
-    position: fixed;
+    position: absolute;
     text-align: center;
-    top: 20%;
+    top: 15%;
     width: 100%;
 }
 .heading h1 {
 	color: whitesmoke;
-	font-size: 5em;
+	font-size: 5rem;
+	display: block;
+    margin-top: 0.83em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 .heading h2 {
     color: lightgray;
-    font-size: 15px;
+	font-size: 1rem;
+    font-style: italic;
+	display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 ul {
     display: block;
@@ -41,11 +55,11 @@ ul {
 /*}*/
 footer {
     bottom: 0;
-    height: 45px;
+    height: 50px;
     left: 0;
 	text-align: center;
 	font-size: 15px;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 a, a:visited {
